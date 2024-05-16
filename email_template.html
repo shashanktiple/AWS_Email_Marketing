@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AWS Project Newsletter</title>
+    <style>
+      /* Reset CSS */
+      body,
+      h1,
+      p {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      /* Email Container */
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Header */
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      /* Logo */
+      .logo {
+        width: 150px;
+        height: auto;
+      }
+
+      /* Content */
+      .content {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Call to Action Button */
+      .cta-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+      /* Footer */
+      .footer {
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="https://example.com/logo.png"
+          alt="Company Logo"
+          class="logo"
+        />
+        <h1>Hello, {{Name}}!</h1>
+        <p>Thank you for subscribing to our AWS Project Newsletter.</p>
+      </div>
+      <div class="content">
+        <p>
+          This is an AWS project using components such as S3, Lambda,
+          EventBridge, and SNS. Stay updated with the latest news and
+          developments in cloud computing!
+        </p>
+        <a href="#" class="cta-button">Learn More</a>
+      </div>
+      <div class="footer">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
